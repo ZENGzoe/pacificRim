@@ -1,9 +1,13 @@
-# 环太平洋
+# 重力感应小游戏-通过重力感应集中目标打怪兽
 
-页面地址：[]()
+页面地址：[https://zengzoe.github.io/pacificRim/dist/
+](https://zengzoe.github.io/pacificRim/dist/)
 
-![]()
+![](https://github.com/ZENGzoe/pacificRim/blob/master/qrcode.png)
  
+## 实现技术：
+
+Phaser.js
 
 ## 总结
 
