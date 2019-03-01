@@ -14,8 +14,6 @@ Phaser.js
 ### 1.陀螺仪处理
 **问题：** 陀螺仪数据直接加到光标的位移上，由于陀螺仪数据敏感，导致光标出现抖动现象。
 
-![陀螺仪](http://img20.360buyimg.com/cms/jfs/t18769/203/962254010/14083/8a43600a/5ab4a142Nb9fe0e96.png)
-
 **解决：** 光标中的beta、gamma的和作为光标的速度，偏移方向为光标的运动速度。
 ```
 var speed = 15 * (Math.abs(betaDirection) + Math.abs(gammaDirection));    //速度
