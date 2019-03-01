@@ -1,0 +1,74 @@
+Arguments: 
+  /usr/local/bin/node /usr/local/Cellar/yarn/1.3.2/libexec/bin/yarn.js add webpack-contrib/html-webpack-plugin -D
+
+PATH: 
+  /Users/zengjieyi/.rvm/gems/ruby-2.4.1/bin:/Users/zengjieyi/.rvm/gems/ruby-2.4.1@global/bin:/Users/zengjieyi/.rvm/rubies/ruby-2.4.1/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/sw/bin:/Users/zengjieyi/.rvm/bin
+
+Yarn version: 
+  1.3.2
+
+Node version: 
+  6.10.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "play-and-draw-tpl",
+    "version": "0.19.1",
+    "description": "",
+    "main": "webpack.config.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "dev": "set ENV=dev&& webpack-dev-server --hot --inline --content-base",
+      "prod": "set ENV=prod&& webpack -wp"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+      "autoprefixer": "^7.1.3",
+      "clean-webpack-plugin": "^0.1.17",
+      "copy-webpack-plugin": "^4.0.1",
+      "css-loader": "^0.26.4",
+      "extract-text-webpack-plugin": "^3.0.2",
+      "html-webpack-plugin": "webpack-contrib/html-webpack-plugin",
+      "install": "^0.10.4",
+      "node-sass": "^4.7.2",
+      "npm": "^5.7.1",
+      "postcss-loader": "^2.0.6",
+      "postcss-plugin-px2rem": "^0.7.0",
+      "postcss-sprites": "^4.2.1",
+      "sass-loader": "^6.0.6",
+      "webpack": "^4.0.0",
+      "webpack-cli": "^2.0.11",
+      "webpack-dev-server": "^3.1.1"
+    },
+    "dependencies": {
+      "@jmfe/jm-cookie": "^1.0.0",
+      "@jmfe/jm-service": "^2.1.0",
+      "@jmfe/jm-webview": "^1.6.0-beta.1",
+      "promise-polyfill": "6.0.2",
+      "scriptjs": "^2.5.8",
+      "whatwg-fetch": "^2.0.3"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: https://registry.npm.taobao.org/@jmfe%2fjm-cookie: Not found
+      at Request.params.callback [as _callback] (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:62098:18)
+      at Request.self.callback (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123085:22)
+      at emitTwo (events.js:106:13)
+      at Request.emit (events.js:191:7)
+      at Request.<anonymous> (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:124068:10)
+      at emitOne (events.js:96:13)
+      at Request.emit (events.js:188:7)
+      at IncomingMessage.<anonymous> (/usr/local/Cellar/yarn/1.3.2/libexec/lib/cli.js:123988:12)
+      at IncomingMessage.g (events.js:291:16)
+      at emitNone (events.js:91:20)

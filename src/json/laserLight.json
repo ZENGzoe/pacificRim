@@ -1,0 +1,36 @@
+{"frames": {
+
+"01.png":
+{
+	"frame": {"x":0,"y":0,"w":370,"h":295},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":370,"h":295},
+	"sourceSize": {"w":370,"h":295}
+},
+"02.png":
+{
+	"frame": {"x":0,"y":295,"w":370,"h":295},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":370,"h":295},
+	"sourceSize": {"w":370,"h":295}
+},
+"03.png":
+{
+	"frame": {"x":0,"y":590,"w":370,"h":295},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":370,"h":295},
+	"sourceSize": {"w":370,"h":295}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "laserLight.png",
+	"format": "RGBA8888",
+	"size": {"w":370,"h":885},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:a82ff228252a071895a8d5d752efaa5f:20f6e038a8b3fa271c28b485f44aab53:cf58f65f7f78b7d8f67944e3b5eff744$"
+}
+}

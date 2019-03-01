@@ -1,0 +1,108 @@
+{"frames": {
+
+"01.png":
+{
+	"frame": {"x":0,"y":0,"w":308,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":308,"h":386},
+	"sourceSize": {"w":308,"h":386}
+},
+"02.png":
+{
+	"frame": {"x":308,"y":0,"w":319,"h":382},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":319,"h":382},
+	"sourceSize": {"w":319,"h":382}
+},
+"03.png":
+{
+	"frame": {"x":627,"y":0,"w":323,"h":377},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":323,"h":377},
+	"sourceSize": {"w":323,"h":377}
+},
+"04.png":
+{
+	"frame": {"x":950,"y":0,"w":331,"h":376},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":331,"h":376},
+	"sourceSize": {"w":331,"h":376}
+},
+"05.png":
+{
+	"frame": {"x":1281,"y":0,"w":311,"h":381},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":311,"h":381},
+	"sourceSize": {"w":311,"h":381}
+},
+"06.png":
+{
+	"frame": {"x":1592,"y":0,"w":300,"h":385},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":385},
+	"sourceSize": {"w":300,"h":385}
+},
+"07.png":
+{
+	"frame": {"x":0,"y":386,"w":308,"h":386},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":308,"h":386},
+	"sourceSize": {"w":308,"h":386}
+},
+"08.png":
+{
+	"frame": {"x":308,"y":386,"w":319,"h":382},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":319,"h":382},
+	"sourceSize": {"w":319,"h":382}
+},
+"09.png":
+{
+	"frame": {"x":627,"y":386,"w":323,"h":377},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":323,"h":377},
+	"sourceSize": {"w":323,"h":377}
+},
+"10.png":
+{
+	"frame": {"x":950,"y":386,"w":331,"h":376},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":331,"h":376},
+	"sourceSize": {"w":331,"h":376}
+},
+"11.png":
+{
+	"frame": {"x":1281,"y":386,"w":311,"h":381},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":311,"h":381},
+	"sourceSize": {"w":311,"h":381}
+},
+"12.png":
+{
+	"frame": {"x":1592,"y":386,"w":300,"h":385},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":300,"h":385},
+	"sourceSize": {"w":300,"h":385}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "monsterRun.png",
+	"format": "RGBA8888",
+	"size": {"w":1892,"h":772},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:830643938f2cbb5cd55b5c87d06627be:1777dbdc828c6d61fde49f4dc90825ed:9f575dd5337d15f6bf83b4302c3e72e9$"
+}
+}

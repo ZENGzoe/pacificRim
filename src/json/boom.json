@@ -1,0 +1,84 @@
+{"frames": {
+
+"01.png":
+{
+	"frame": {"x":0,"y":0,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"02.png":
+{
+	"frame": {"x":341,"y":0,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"03.png":
+{
+	"frame": {"x":682,"y":0,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"04.png":
+{
+	"frame": {"x":0,"y":253,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"05.png":
+{
+	"frame": {"x":341,"y":253,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"06.png":
+{
+	"frame": {"x":682,"y":253,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"07.png":
+{
+	"frame": {"x":0,"y":506,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"08.png":
+{
+	"frame": {"x":341,"y":506,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+},
+"09.png":
+{
+	"frame": {"x":682,"y":506,"w":341,"h":253},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":341,"h":253},
+	"sourceSize": {"w":341,"h":253}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "boom.png",
+	"format": "RGBA8888",
+	"size": {"w":1023,"h":759},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:ce218f3bc0fbff60b2dacb6286d1bf8d:575cafc10a70b88b95ecb1edca0852d7:e47eedbaad58bc4f340c3001c2dcf4d3$"
+}
+}

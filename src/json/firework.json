@@ -1,0 +1,100 @@
+{"frames": {
+
+"01.png":
+{
+	"frame": {"x":0,"y":0,"w":662,"h":482},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":662,"h":482},
+	"sourceSize": {"w":662,"h":482}
+},
+"02.png":
+{
+	"frame": {"x":662,"y":0,"w":656,"h":482},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":656,"h":482},
+	"sourceSize": {"w":656,"h":482}
+},
+"03.png":
+{
+	"frame": {"x":1318,"y":0,"w":678,"h":482},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":678,"h":482},
+	"sourceSize": {"w":678,"h":482}
+},
+"04.png":
+{
+	"frame": {"x":0,"y":482,"w":662,"h":482},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":662,"h":482},
+	"sourceSize": {"w":662,"h":482}
+},
+"05.png":
+{
+	"frame": {"x":662,"y":482,"w":656,"h":482},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":656,"h":482},
+	"sourceSize": {"w":656,"h":482}
+},
+"06.png":
+{
+	"frame": {"x":1318,"y":482,"w":678,"h":482},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":678,"h":482},
+	"sourceSize": {"w":678,"h":482}
+},
+"07.png":
+{
+	"frame": {"x":0,"y":964,"w":662,"h":482},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":662,"h":482},
+	"sourceSize": {"w":662,"h":482}
+},
+"08.png":
+{
+	"frame": {"x":662,"y":964,"w":656,"h":490},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":656,"h":490},
+	"sourceSize": {"w":656,"h":490}
+},
+"09.png":
+{
+	"frame": {"x":1318,"y":964,"w":678,"h":502},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":678,"h":502},
+	"sourceSize": {"w":678,"h":502}
+},
+"10.png":
+{
+	"frame": {"x":0,"y":1466,"w":662,"h":514},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":662,"h":514},
+	"sourceSize": {"w":662,"h":514}
+},
+"11.png":
+{
+	"frame": {"x":662,"y":1466,"w":665,"h":513},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":665,"h":513},
+	"sourceSize": {"w":665,"h":513}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "firework.png",
+	"format": "RGBA8888",
+	"size": {"w":1996,"h":1980},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:c092d77bac2a44180353ad405987c7e4:e5c33e003b49bb95e31212017d2f840a:5b196330c4542ebe93f169987b13e01a$"
+}
+}

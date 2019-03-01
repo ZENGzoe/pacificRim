@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+	<meta content="telephone=no" name="format-detection">
+	<title></title> 
+	<script> 
+
+		//start:自动配置rem
+		(function(window){
+			var STD_WIDTH = 750, //标准宽度（单位：像素）
+				STD_FONT_SIZE = 100, //标准宽度下html的字体大小（单位：像素）
+				root = document.documentElement,
+				fontSize, //当前root的fontSize
+				scale, //当前相对于标准宽度的缩放比例
+				tDelayResize = null, //delayResize方法的计时器
+				onResizeCbs = [], //resize事件回调组成的数组
+
+				/**
+				 * px转rem
+				 * @param {Number} px - px
+				 * @returns {Number} rem
+				 */
+				pxToRem = function(px){
+					return px / fontSize;
+				},
+
+				/**
+				 * 标准px转rem
+				 * @param {Number} stdPx - 标准px
+				 * @returns {Number} rem
+				 */
+				stdPxToRem = function(stdPx){
+					return stdPx / STD_FONT_SIZE;
+				},
+
+				/**
+				 * rem转px
+				 * @param {Number} rem - rem
+				 * @returns {Number} px
+				 */
+				remToPx = function(rem){
+					return rem * fontSize;
+				},
+
+				/**
+				 * rem转标准px
+				 * @param {Number} rem - rem
+				 * @returns {Number} 标准px
+				 */
+				remToStdPx = function(rem){
+					return rem * STD_FONT_SIZE;
+				},
+
+				/**
+				 * px转标准px
+				 * @param {Number} px - px
+				 * @returns {Number} 标准px
+				 */
+				pxToStdPx = function(px){
+					return px / scale;
+				},
+
+				/**
+				 * 标准px转px
+				 * @param {Number} 标准px - 标准px
+				 * @returns {Number} px
+				 */
+				stdPxToPx = function(px){
+					return px * scale;
+				},
+
+				/**
+				 * 重置fontSize大小
+				 */
+				resize = function(){
+					scale = root.clientWidth / STD_WIDTH;
+					var newFontSize = scale * STD_FONT_SIZE;
+					if(fontSize != newFontSize){
+						fontSize = newFontSize;
+						autoRem.fontSize = fontSize;
+						autoRem.scale = scale;
+						root.style.fontSize = fontSize + 'px';
+						onResizeCbs.forEach(function(onResizeCb){
+							onResizeCb();
+						});
+					}
+				},
+
+				/**
+				 * 延迟触发resize方法
+				 */
+				delayResize = function(){
+					clearTimeout(tDelayResize);
+					tDelayResize = setTimeout(resize,100);
+				},
+
+				/**
+				 * 绑定resize事件
+				 * @param {Function} onResizeCb - 要绑定的回调
+				 */
+				onResize = function(onResizeCb){
+					if(onResizeCb){
+						onResizeCbs.push(onResizeCb);
+					}
+				},
+
+				/**
+				 * 解绑resize事件
+				 * @param {Function} [onResizeCb] - 要解绑的回调，若不传则解绑所有回调
+				 */
+				offResize = function(onResizeCb){
+					if(onResizeCb){
+						var idx = onResizeCbs.indexOf(onResizeCb);
+						if(~idx){
+							onResizeCbs.splice(idx,1);
+						}
+					}else{
+						onResizeCbs = [];
+					}
+				},
+
+				/**
+				 * 自动配置rem
+				 */
+				autoRem = {
+					pxToRem : pxToRem,
+					stdPxToRem : stdPxToRem,
+					remToPx : remToPx,
+					remToStdPx : remToStdPx,
+					pxToStdPx : pxToStdPx,
+					stdPxToPx : stdPxToPx,
+					STD_FONT_SIZE : STD_FONT_SIZE,
+					STD_WIDTH : STD_WIDTH,
+					fontSize : null, //当前根元素上的fontSize（单位：px）
+					scale : null, //当前的缩放比例
+					onResize : onResize,
+					offResize : offResize
+				};
+			resize();
+			window.addEventListener('resize',delayResize,false);
+			window.autoRem = autoRem;
+		})(window);
+		//end:自动配置rem
+	</script>
+	<link href="css/index.css" rel="stylesheet">
+</head>
+<body>
+	<!--start:游戏的html可以写在这里-->
+	<div class="jy_loading">
+		<img class="img" src='img/loading1.jpg'></img>
+		<img class="img" src='img/loading2.jpg'></img>
+		<img class="img" src='img/loading3.jpg'></img>
+		<div class="ct">
+			<div class="progress">
+				<span class="active"></span>
+				<span class="num">0%</span>
+			</div>
+			<span class="word">机器人送往战场...</span>
+		</div>
+	</div>
+
+	<div class="jy_go">
+		<div class="gowrap">
+			<a href="javascript:;" class="go"></a>
+		</div>
+		<a class="rulebtn">活动规则</a>
+	</div>
+
+	<audio id="jy_audio" src="https://storage.jd.com/huantaipingyang1/music.mp3?Expires=3668849965&AccessKey=4wXd2edTdqhFXpxv&Signature=wfX8QKV5S0LUKb%2BnJrJk9QxHtxY%3D" preload="auto" loop="true"></audio>
+	
+	<div class="jy_mask">
+		<div class="music">
+			<a href="javascript:;" class="no">不开启</a>
+			<a href="javascript:;" class="yes">开启</a>
+		</div>
+	</div>
+
+	<div class="jy_pic jy_pic1"></div>
+	<div class="jy_pic jy_pic2"></div>
+	
+	<div class="jy_course">
+		<div class="team">
+			<p>亲爱的队友！哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈哈</p>
+		</div>
+		<span class="tip">摆动手机让光标重合
+			<span class="icon"></span>
+		</span>
+		<span class="click">点击屏幕继续</span>
+		<span class="guideline"></span>
+	</div>
+
+	<div class="jy_gif">
+		<img src="http://img30.360buyimg.com/cms/jfs/t15880/247/2530079423/12276/4679f00d/5ab0957cNdd2a112b.gif" alt="">
+	</div>
+	
+
+	<!--end:游戏的html可以写在这里-->
+	
+	<!--start:loading-->
+	<p class="padt_loading" id="padt_loading" style="display:none;">
+		<span></span>
+	</p>
+	<!--end:loading-->
+
+	<!--start:toast-->
+	<p class="padt_toast" id="padt_toast" style="display:none;">网络开小差啦</p>
+	<!--end:toast-->
+
+	<div id="container"></div>
+
+	<div class="pop-rule">
+		<div class="rule-main">
+			<div class="rule-content">
+				<h5 class="mt30">游戏规则：</h5> 
+				<p>在40秒游戏时间内，摇摆手机，利用重力感应，让光标重合，完成发炮，击败怪兽。25秒内（含25秒）完成可获得三颗星，26至35秒完成可获得二颗星，36至40秒可获得一颗星，40秒内没完成不得星。</p>
+			</div>	
+			<a href="javascript:;" class="rule-close"></a>
+		</div>
+	</div>
+	
+	<script src="./js/conf.js"></script>
+	<script src="https://static.360buyimg.com/jdcopr/lib/phaser.min.js"></script>
+	<script src="./js/index.js"></script>
+</body>
+</html>

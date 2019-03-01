@@ -1,0 +1,52 @@
+{"frames": {
+
+"01.png":
+{
+	"frame": {"x":0,"y":0,"w":375,"h":405},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":405},
+	"sourceSize": {"w":375,"h":405}
+},
+"02.png":
+{
+	"frame": {"x":375,"y":0,"w":375,"h":405},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":405},
+	"sourceSize": {"w":375,"h":405}
+},
+"03.png":
+{
+	"frame": {"x":750,"y":0,"w":375,"h":405},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":405},
+	"sourceSize": {"w":375,"h":405}
+},
+"04.png":
+{
+	"frame": {"x":1125,"y":0,"w":375,"h":405},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":405},
+	"sourceSize": {"w":375,"h":405}
+},
+"05.png":
+{
+	"frame": {"x":1500,"y":0,"w":375,"h":405},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":375,"h":405},
+	"sourceSize": {"w":375,"h":405}
+}},
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "monsterDead.png",
+	"format": "RGBA8888",
+	"size": {"w":1875,"h":405},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:e2e4bd1b9db1b23f7f0327b5e1af1c38:a8a07b84649625399fb7aa3ad65f4e54:0cd20ad817ce70c61cc5ba02c4f91ce3$"
+}
+}
